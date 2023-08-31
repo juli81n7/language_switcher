@@ -12,7 +12,7 @@ const texts = {
   da: {
     texts: [
       { text: "Båden", location: ".header" },
-      { text: "Robotten", location: ".footer" },
+      { text: "Robåden", location: ".footer" },
     ],
   },
 };
