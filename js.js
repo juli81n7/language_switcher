@@ -17,11 +17,11 @@ const texts = {
   },
 };
 const locale = "da";
-const array = texts[locale].texts;
-change(array);
+const object = texts[locale].texts;
+change(object);
 
-function change(arr) {
-  arr.forEach((each) => {
+function change(obj) {
+  obj.forEach((each) => {
     document.querySelector(each.location).innerHTML = each.text;
   });
 }
