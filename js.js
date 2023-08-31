@@ -21,7 +21,8 @@ const texts = {
 
 // her definere vi det ummiddelbare array vi skal have fat i - nemlig "da"
 const locale = "da";
-// her pejer vi ned i de object som vi skal bruge ud fra den array vi lige har konstatereret - altså arrayet texts som så pejer ind i objectet som er defineret med vores konstant locale[locale]
+// her pejer vi ned i de object som vi skal bruge ud fra den array vi lige har konstatereret
+//- altså arrayet texts som så pejer ind i objectet som er defineret med vores konstant locale[locale]
 //og derefter in i  objectet texts
 const object = texts[locale].texts;
 
@@ -31,7 +32,8 @@ change(object);
 function change(obj) {
   // her laver vi en for each med det object som er i konstanten object, som altså looper igennem de to forskellige text arrays der er i det objekt
   obj.forEach((each) => {
-    // for at kunne gør dette dynamisk, finder vi stedet det skal ændre sig i ved at bruge array elementet location i vores qsl, og indholdet skal så ændre sig til elementer text
+    // for at kunne gør dette dynamisk, finder vi stedet det skal ændre sig i ved at bruge array elementet location i vores qsl,
+    //og indholdet skal så ændre sig til elementer text
     document.querySelector(each.location).innerHTML = each.text;
   });
 }
