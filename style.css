@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+select {
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 2rem;
+  background-color: whitesmoke;
+  color: #181818;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #052804;
+  flex-direction: column;
+  color: white;
+  gap: 2rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 300px;
+  width: 100%;
+  text-align: right;
+  color: white;
+
+  font-size: 15rem;
+  padding-right: 2rem;
+}
+.header {
+  position: absolute;
+  top: 0;
+  height: 200px;
+  width: 100%;
+  padding-left: 2rem;
+  color: white;
+
+  font-size: 10rem;
+}
