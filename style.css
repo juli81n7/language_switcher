@@ -7,6 +7,7 @@ select {
   border-radius: 2rem;
   background-color: whitesmoke;
   color: #181818;
+  cursor: pointer;
 }
 
 body {
